@@ -10,7 +10,7 @@ function card(app) {
             className="mx-auto"
             src={app.image}
             alt={app.name}
-            width="150px"
+            width="100px"
           />
           <h3 className="my-5 text-lg font-semibold text-dark-500">
             {app.name}
