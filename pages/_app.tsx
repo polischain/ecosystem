@@ -16,21 +16,21 @@ function MyApp({ Component, pageProps }): JSX.Element {
           name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
         />
-        <title key="title">Polis Chain</title>
+        <title key="title">Polis Chain | Ecosystem </title>
 
         <meta
           key="description"
           name="description"
-          content="Join the payments revolution with our EVM powered network and community"
+          content="Explore the Polis Chain ecosystem"
         />
 
-        <meta name="application-name" content="Polis Chain" />
+        <meta name="application-name" content="Polis Chain | Ecosystem" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta
           name="apple-mobile-web-app-status-bar-style"
           content="black-translucent"
         />
-        <meta name="apple-mobile-web-app-title" content="Polis Chain" />
+        <meta name="apple-mobile-web-app-title" content="Polis Chain | Ecosystem" />
 
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
@@ -38,21 +38,21 @@ function MyApp({ Component, pageProps }): JSX.Element {
         <meta name="theme-color" content="#3E4A94" />
 
         <meta key="twitter:card" name="twitter:card" content="app" />
-        <meta key="twitter:title" name="twitter:title" content="Polis Chain" />
+        <meta key="twitter:title" name="twitter:title" content="Polis Chain | Ecosystem" />
         <meta
           key="twitter:url"
           name="twitter:url"
-          content="https://polis.tech"
+          content="https://ecosystem.polis.tech"
         />
         <meta
           key="twitter:description"
           name="twitter:description"
-          content="Join the payments revolution with our EVM powered network and community"
+          content="Explore the Polis Chain ecosystem"
         />
         <meta
           key="twitter:image"
           name="twitter:image"
-          content="https://polis.tech/manifest-icon-192.png"
+          content="https://ecosystem.polis.tech/manifest-icon-192.png"
         />
         <meta
           key="twitter:creator"
@@ -63,18 +63,18 @@ function MyApp({ Component, pageProps }): JSX.Element {
         <meta
           key="og:site_name"
           property="og:site_name"
-          content="Polis Chain"
+          content="Polis Chain | Ecosystem"
         />
-        <meta key="og:url" property="og:url" content="https://polis.tech" />
+        <meta key="og:url" property="og:url" content="https://ecosystem.polis.tech" />
         <meta
           key="og:image"
           property="og:image"
-          content="https://polis.tech/apple-icon-180.png"
+          content="https://ecosystem.polis.tech/apple-icon-180.png"
         />
         <meta
           key="og:description"
           property="og:description"
-          content="Join the payments revolution with our EVM powered network and community"
+          content="Explore the Polis Chain ecosystem"
         />
       </Head>
       <Component {...pageProps} />

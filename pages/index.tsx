@@ -13,7 +13,7 @@ export function Home(): JSX.Element {
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <h1 className="text-white font-semibold text-3xl xl:text-5xl">
-                  Explore de Polis Ecosystem
+                  Explore the Polis Chain Ecosystem
                 </h1>
               </div>
             </div>
