@@ -2,7 +2,7 @@ import React from 'react'
 import { Disclosure } from '@headlessui/react'
 
 const navigation = [
-  { name: 'Docs', href: 'https://doc.polis.tech' },
+  { name: 'Documentation', href: 'https://doc.polis.tech' },
   { name: 'Faucet', href: 'https://faucet.polis.tech' },
   { name: 'Explorer', href: 'https://explorer.polis.tech' },
 ]
@@ -40,7 +40,7 @@ export default function Navbar(): JSX.Element {
                           key={item.name}
                           href={item.href}
                           className={
-                            'text-white hover:bg-dark-400 px-3 py-2 rounded-md text-md'
+                            'text-white hover:bg-dark-400 px-3 py-2 rounded-md text-lg'
                           }
                         >
                           {item.name}

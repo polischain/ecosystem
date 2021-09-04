@@ -1,36 +1,32 @@
-enum CATEGORIES {
-  DEFI,
-  EXPLORER,
-  WALLET,
-  STABLECOINS,
-  EXCHANGES,
+export const CATEGORIES = {
+  DEFI: 'DeFi',
+  EXPLORER: 'Explorer',
+  WALLET: 'Wallets',
+  TOKENS: 'Tokens',
+  EXCHANGES: 'Exchanges',
 }
 
 export const APPS = [
   {
-    name: 'Blockscout',
+    name: 'Blockscout Explorer',
     url: 'https://explorer.polis.tech',
-    image: '',
+    image:
+      'https://raw.githubusercontent.com/blockscout/blockscout/master/blockscout.png',
     categories: [CATEGORIES.EXPLORER],
+    description: 'Official block explorer for the Olympus network',
   },
   {
-    name: 'Hades Finance',
-    url: '#',
-    image: '',
-    categories: [CATEGORIES.DEFI, CATEGORIES.EXCHANGES],
+    name: 'Gnosis Safe',
+    url: 'https://safe.polis.tech',
+    image: 'https://avatars.githubusercontent.com/u/24954468?s=200&v=4',
+    categories: [CATEGORIES.WALLET],
+    description: 'Audited and secure multi-signature wallets',
   },
   {
     name: 'Metamask',
-    url: '#',
-    image: '',
+    url: 'https://metamask.io/',
+    image: 'https://avatars.githubusercontent.com/u/11744586?s=200&v=4',
     categories: [CATEGORIES.WALLET],
+    description: 'A crypto wallet and gateway to blockchain apps on Olympus',
   },
 ]
-
-export const CATEGORIES_NAMES = {
-  0: 'DeFi',
-  1: 'Explorer',
-  2: 'Wallets',
-  3: 'Stable coins',
-  4: 'Exchanges',
-}
