@@ -54,7 +54,7 @@ export default function Ecosystem(): JSX.Element {
           </button>
           {filters.map((filter) => {
             return (
-              <button
+              <button key={filter}
                 className="bg-dark-600 hover:bg-dark-400 text-white py-1 px-2 text-xs uppercase rounded-full mx-1"
                 onClick={() => setFilter(filter)}
               >
