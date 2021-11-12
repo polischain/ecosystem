@@ -2,9 +2,9 @@ import React from 'react'
 import { Disclosure } from '@headlessui/react'
 
 const navigation = [
-  { name: 'Documentation', href: 'https://doc.polis.tech' },
-  { name: 'Faucet', href: 'https://faucet.polis.tech' },
-  { name: 'Explorer', href: 'https://explorer.polis.tech' },
+  { name: 'DOCUMENTATION', href: 'https://doc.polis.tech' },
+  { name: 'FAUCET', href: 'https://faucet.polis.tech' },
+  { name: 'EXPLORER', href: 'https://explorer.polis.tech' },
 ]
 
 export default function Navbar(): JSX.Element {
@@ -39,6 +39,8 @@ export default function Navbar(): JSX.Element {
                         <a
                           key={item.name}
                           href={item.href}
+                          target="_blank"
+                          rel="noreferrer"
                           className={
                             'text-white hover:bg-dark-400 px-3 py-2 rounded-md text-lg'
                           }

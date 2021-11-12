@@ -30,7 +30,10 @@ function MyApp({ Component, pageProps }): JSX.Element {
           name="apple-mobile-web-app-status-bar-style"
           content="black-translucent"
         />
-        <meta name="apple-mobile-web-app-title" content="Polis Chain | Ecosystem" />
+        <meta
+          name="apple-mobile-web-app-title"
+          content="Polis Chain | Ecosystem"
+        />
 
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
@@ -38,7 +41,11 @@ function MyApp({ Component, pageProps }): JSX.Element {
         <meta name="theme-color" content="#3E4A94" />
 
         <meta key="twitter:card" name="twitter:card" content="app" />
-        <meta key="twitter:title" name="twitter:title" content="Polis Chain | Ecosystem" />
+        <meta
+          key="twitter:title"
+          name="twitter:title"
+          content="Polis Chain | Ecosystem"
+        />
         <meta
           key="twitter:url"
           name="twitter:url"
@@ -65,7 +72,11 @@ function MyApp({ Component, pageProps }): JSX.Element {
           property="og:site_name"
           content="Polis Chain | Ecosystem"
         />
-        <meta key="og:url" property="og:url" content="https://ecosystem.polis.tech" />
+        <meta
+          key="og:url"
+          property="og:url"
+          content="https://ecosystem.polis.tech"
+        />
         <meta
           key="og:image"
           property="og:image"

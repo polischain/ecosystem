@@ -3,7 +3,7 @@ import { APPS, CATEGORIES } from '../../helpers/apps'
 
 function card(app) {
   return (
-    <a href={app.url} key={app.name}>
+    <a href={app.url} key={app.name} target="_blank" rel="noreferrer">
       <div className="flow-root bg-white rounded-lg px-8 py-8 shadow-md hover:shadow-2xl mx-auto text-center">
         <div>
           <img
@@ -54,7 +54,8 @@ export default function Ecosystem(): JSX.Element {
           </button>
           {filters.map((filter) => {
             return (
-              <button key={filter}
+              <button
+                key={filter}
                 className="bg-dark-600 hover:bg-dark-400 text-white py-1 px-2 text-xs uppercase rounded-full mx-1"
                 onClick={() => setFilter(filter)}
               >
