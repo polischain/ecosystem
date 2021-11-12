@@ -53,7 +53,7 @@ export const APPS = [
     description: 'Polis Sparta and Polis Olympus faucet',
   },
   {
-    name: 'Vfat.Tools',
+    name: 'vfat.tools',
     url: 'https://vfat.tools/',
     image: 'https://vfat.tools/favicon.svg',
     categories: [CATEGORIES.DEFI],
