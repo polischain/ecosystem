@@ -54,7 +54,7 @@ export const APPS = [
   },
   {
     name: 'vfat.tools',
-    url: 'https://vfat.tools/',
+    url: 'https://vfat.tools/polis/',
     image: 'https://vfat.tools/favicon.svg',
     categories: [CATEGORIES.DEFI],
     description: 'Yield Farming Information',
