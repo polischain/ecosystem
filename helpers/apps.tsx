@@ -52,4 +52,11 @@ export const APPS = [
     categories: [CATEGORIES.UTILS],
     description: 'Polis Sparta and Polis Olympus faucet',
   },
+  {
+    name: 'Vfat.Tools',
+    url: 'https://vfat.tools/',
+    image: 'https://vfat.tools/favicon.svg',
+    categories: [CATEGORIES.DEFI],
+    description: 'Yield Farming Information',
+  },
 ]
