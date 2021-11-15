@@ -8,6 +8,31 @@ export const CATEGORIES = {
 
 export const APPS = [
   {
+    name: 'Polis Bridge',
+    url: 'https://bridge.polis.tech/transfer',
+    image:
+      'https://faucet.polis.tech/images/logo-512x512.png',
+    categories: [CATEGORIES.UTILS],
+    description:
+      'Bridge for bridging native Olympus Polis and BEP20 Polis on Binance Smart Chain',
+  },
+  {
+    name: 'Passport Bridge',
+    url: 'https://passport.meter.io/#/',
+    image:
+      'https://s2.coinmarketcap.com/static/img/coins/200x200/6628.png',
+    categories: [CATEGORIES.UTILS],
+    description:
+      'Bridge hosted by meter.io that supports bridging for BTC, ETH, DAI & CAKE between Olympus and Binance Smart Chain',
+  },
+  {
+    name: 'Hades Swap',
+    url: 'https://hadesswap.finance/',
+    image: 'https://hadesswap.finance/static/media/logo.6bd95907.png',
+    categories: [CATEGORIES.EXCHANGES, CATEGORIES.DEFI],
+    description: 'Community-driven DeFi hub for Polis Olympus blockchain',
+  },
+  {
     name: 'Blockscout Explorer',
     url: 'https://explorer.polis.tech',
     image:
@@ -32,13 +57,6 @@ export const APPS = [
     description: 'A crypto wallet and gateway to blockchain apps',
   },
   {
-    name: 'Hades Swap',
-    url: 'https://hadesswap.finance/',
-    image: 'https://hadesswap.finance/static/media/logo.6bd95907.png',
-    categories: [CATEGORIES.EXCHANGES, CATEGORIES.DEFI],
-    description: 'Community-driven DeFi hub for Polis Olympus blockchain',
-  },
-  {
     name: 'Chainlist',
     url: 'https://chainlist.org/',
     image: 'https://chainlist.org/favicon.png',
@@ -58,23 +76,5 @@ export const APPS = [
     image: 'https://vfat.tools/favicon.svg',
     categories: [CATEGORIES.DEFI],
     description: 'Yield Farming Information',
-  },
-  {
-    name: 'Polis Bridge',
-    url: 'https://bridge.polis.tech/transfer',
-    image:
-      'https://faucet.polis.tech/images/logo-512x512.png',
-    categories: [CATEGORIES.UTILS],
-    description:
-      'Bridge for bridging native Olympus Polis and BEP20 Polis on Binance Smart Chain,',
-  },
-  {
-    name: 'Passport Bridge',
-    url: 'https://passport.meter.io/#/',
-    image:
-      'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2Fmeter-io%2Flatest&psig=AOvVaw0-AN5fiAwFYdzXm7a1epWV&ust=1637073713073000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDF-vnMmvQCFQAAAAAdAAAAABAD',
-    categories: [CATEGORIES.UTILS],
-    description:
-      'Bridge hosted by meter.io that supports bridging for BTC, ETH, DAI & CAKE between Olympus and Binance Smart Chain.',
   },
 ]
