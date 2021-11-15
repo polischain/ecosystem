@@ -59,4 +59,22 @@ export const APPS = [
     categories: [CATEGORIES.DEFI],
     description: 'Yield Farming Information',
   },
+  {
+    name: 'Polis Bridge',
+    url: 'https://bridge.polis.tech/transfer',
+    image:
+      'https://faucet.polis.tech/images/logo-512x512.png',
+    categories: [CATEGORIES.UTILS],
+    description:
+      'Bridge for bridging native Olympus Polis and BEP20 Polis on Binance Smart Chain,',
+  },
+  {
+    name: 'Passport Bridge',
+    url: 'https://passport.meter.io/#/',
+    image:
+      'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2Fmeter-io%2Flatest&psig=AOvVaw0-AN5fiAwFYdzXm7a1epWV&ust=1637073713073000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDF-vnMmvQCFQAAAAAdAAAAABAD',
+    categories: [CATEGORIES.UTILS],
+    description:
+      'Bridge hosted by meter.io that supports bridging for BTC, ETH, DAI & CAKE between Olympus and Binance Smart Chain.',
+  },
 ]
